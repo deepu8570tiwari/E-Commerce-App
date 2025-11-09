@@ -2,9 +2,10 @@
   "name": "productservices",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "run": "node scr/index.js",
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/deepu8570tiwari/E-Commerce-App#readme",
   "dependencies": {
+    "@clerk/express": "^1.7.46",
     "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "nodemon": "^3.1.10"
   }
